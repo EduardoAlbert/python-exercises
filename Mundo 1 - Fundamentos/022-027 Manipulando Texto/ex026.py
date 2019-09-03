@@ -1,0 +1,5 @@
+fras = input('\033[34mDigite uma frase: ').upper().strip()
+s = fras.count('A')
+print('\033[32mEssa frase contém {} letras A'.format(s))
+print('\033[36mA letra A aparece pela primera vez na posição: \033[m{}'.format(fras.find('A') + 1))
+print('\033[35mA letra A aparece pela ultima vez na posição: \033[m{}'.format(fras.rfind('A') + 1))
