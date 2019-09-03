@@ -4,9 +4,12 @@ def readInt(text):
             num = int(input(text))
         except ValueError:
             print('\033[31m ERRO! Digite um número inteiro válido.\033[m')
+            continue
+        except KeyboardInterrupt:
+            print('\033[31m Usuário preferiu não digitar esse número.\033m')
+            return 0
         else:
-            break
-    return num
+            return num
 
 
 def readFloat(text):
@@ -16,11 +19,10 @@ def readFloat(text):
         except ValueError:
             print('\033[31m ERRO! Digite um número real válido.\033[m')
         except KeyboardInterrupt:
-            num = 0
-            break
+            print('\033[31m Usuário preferiu não digitar esse número.\033m')
+            return 0
         else:
-            break
-    return num
+            return num
 
 
 # Main Program
