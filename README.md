@@ -1,4 +1,4 @@
-# Mais de 100 exercícios de Python
+# 99+ Python Exercises
 
 Todas as resoluções estão disponíveis neste repositório e também no YouTube junto com suas respectivas aulas sobre cada assunto, no canal Curso em Vídeo do Prof.Gustavo Guanabara.
 
